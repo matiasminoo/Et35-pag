@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Escuela Técnica 35 – Eduardo Latzina</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0f121a;color:#eae8e5;line-height:1.6}
+    h1,h2,h3,h4{margin:0 0 10px}
+    img,iframe{max-width:100%;display:block;border-radius:10px}
+    .container{width:min(1200px,90%);margin:0 auto}
+    header{padding:30px 0;text-align:center;background:#1c2131;color:#fff}
+    .menu{margin-top:15px;display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+    .menu a{background:#2a3044;padding:10px 16px;border-radius:10px;color:#eae8e5;font-weight:bold}
+    .menu a:hover{background:#3d4563}
+    section{padding:40px 0}
+    .card{background:#171b28;padding:20px;border-radius:14px;margin-bottom:20px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    @media(max-width:800px){.grid-2,.grid-3{grid-template-columns:1fr}}
+    footer{padding:20px 0;text-align:center;background:#1c2131;color:#c7c3bc;margin-top:30px}
+    .img-ubicacion{width:100%;max-height:420px;object-fit:cover;margin:15px 0;border-radius:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Escuela Técnica 35 - Eduardo Latzina</h1>
+      <p>Automotores · Computación</p>
+      <nav class="menu">
+        <a href="#escuela">Escuela</a>
+        <a href="#campamento">Campamento Suyai</a>
+        <a href="#comunidad">Comunidad Educativa</a>
+        <a href="#recorrida">Recorrida Virtual</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="escuela">
+      <div class="container">
+        <h2>La Escuela</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Misión y Propuesta</h3>
+            <p>La institución ofrece formación técnica integral en Automotores y Computación, con proyectos prácticos y vínculos con universidades y empresas.</p>
+          </div>
+          <div class="card">
+            <h3>Organización</h3>
+            <p>Está organizada en equipos directivos, preceptorías y departamentos de Automotores y Computación, además de prácticas profesionalizantes.</p>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Inscripción de Ingresantes</h4>
+          <p>Se realiza por el sistema oficial de la Ciudad de Buenos Aires, entregando la documentación correspondiente en preceptoría.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="campamento">
+      <div class="container">
+        <h2>Campamento Suyai</h2>
+        <img src="campamento-frente.jpg" alt="Cabañas en el Campamento Suyai">
+        <div class="card">
+          <p>El Campamento Suyai fomenta el aprendizaje y la vida en comunidad al aire libre. Los recursos materiales, humanos y de infraestructura se ponen al servicio de los acampantes. La premisa es que cada integrante se esfuerce en beneficio de sus compañeros.</p>
+        </div>
+        <div class="card">
+          <h3>Reseña Histórica</h3>
+          <ul>
+            <li>1961–1965: Primeras actividades a orillas del Río Llodconto.</li>
+            <li>1966: Instalación definitiva en Villa Mascardi, lote 80.</li>
+            <li>1972: Inauguración de la cabaña dormitorios.</li>
+            <li>1974: Construcción financiada por la comunidad educativa.</li>
+            <li>1988: Incendio destruye la cabaña principal; en 1989 se reconstruye.</li>
+            <li>2010–2011: Conmemoración de los 50 años del campamento.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Evolución del Transporte</h3>
+          <p>1961–1966: viajes en tren.</p>
+          <p>1967–1986: ómnibus propio de la cooperadora.</p>
+          <p>Desde 1987: ómnibus contratado.</p>
+        </div>
+        <div class="card">
+          <h3>Infraestructura</h3>
+          <div class="grid-2">
+            <div>
+              <h4>Cabaña Principal</h4>
+              <p>Comedor, cocina, despensa, sanitarios, duchas y enfermería.</p>
+            </div>
+            <div>
+              <h4>Cabaña Dormitorio</h4>
+              <p>10 habitaciones para 4–5 acampantes, una habitación individual y un baño.</p>
+            </div>
+            <div>
+              <h4>Cabaña del Cuidador</h4>
+              <p>Vivienda de tres ambientes.</p>
+            </div>
+            <div>
+              <h4>Cabaña Galpón</h4>
+              <p>Depósito de herramientas y materiales.</p>
+            </div>
+            <div>
+              <h4>Canchas Deportivas</h4>
+              <p>Una cancha de vóley y una de fútbol.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comunidad">
+      <div class="container">
+        <h2>Comunidad Educativa</h2>
+        <div class="card">
+          <h3>Centro de Egresados</h3>
+          <p>En sus primeros 50 años, la escuela graduó 3646 Técnicos en Automotores y 782 en Computación.</p>
+          <div class="grid-2">
+            <div>
+              <h4>Ceremonias de Graduación</h4>
+              <p>Desde 1957, la despedida de los egresados se transformó en un evento clave. En 1961 se institucionalizó la entrega de diplomas y medallas.</p>
+            </div>
+            <div>
+              <h4>25° Aniversario</h4>
+              <p>En 1976 se celebró una cena con más de 300 egresados, renovando la Comisión Directiva.</p>
+            </div>
+          </div>
+          <h4>Distribución Laboral</h4>
+          <p>32% Servicios · 28% Fábricas de Automotores · 25% Industria Metalúrgica · 15% Otras actividades.</p>
+          <h4>Hitos</h4>
+          <ul>
+            <li>1956: Primera promoción no oficial.</li>
+            <li>1957: Primer acto de despedida.</li>
+            <li>1961: Entrega de diplomas y medallas con padrinos y docentes.</li>
+            <li>1976: Cena aniversario con gran convocatoria.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="recorrida">
+      <div class="container">
+        <h2>Recorrida Virtual</h2>
+        <div class="grid-3">
+          <img src="taller.jpg" alt="Taller con maquinaria de automotores">
+          <img src="EcoAuto.jpg" alt="Eco Auto">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/S4B7r3kew-4" title="Recorrida" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion">
+      <div class="container">
+        <h2>Ubicación</h2>
+        <p>Av. Lope de Vega 2150, Villa Devoto, Ciudad Autónoma de Buenos Aires.</p>
+        <img src="Ubicacion.jpg" alt="Frente de la Escuela Técnica 35" class="img-ubicacion">
+        <iframe src="https://www.google.com/maps?q=Av.+Lope+de+Vega+2150,+CABA&output=embed" width="100%" height="380" style="border:0;border-radius:10px;margin-top:15px"></iframe>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form class="card" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+          <div class="grid-2">
+            <input type="text" placeholder="Nombre y apellido" required>
+            <input type="email" placeholder="Correo electrónico" required>
+          </div>
+          <textarea rows="5" placeholder="Escribí tu mensaje" required style="width:100%;margin-top:10px"></textarea>
+          <button type="submit" style="margin-top:10px;padding:10px 16px;border-radius:10px;background:#f59e0b;border:none;font-weight:bold">Enviar</button>
+        </form>
+        <p>📍 Av. Lope de Vega 2150 — CABA · ☎ 4567-5838 · secretaria@et35.edu.ar</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Escuela Técnica 35 - Eduardo Latzina</p>
+    </div>
+  </footer>
+</body>
+</html>
